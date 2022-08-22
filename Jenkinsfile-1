@@ -9,7 +9,7 @@ metadata:
 spec:
   containers:
   - name: checkov
-    image: bridgecrew/checkov:2.0.888
+    image: bridgecrew/checkov:latest
     command:
     - cat
     tty: true
